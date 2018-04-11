@@ -1,0 +1,50 @@
+Serverless: [33mPackaging service...[39m
+Serverless: [33mExcluding development dependencies...[39m
+Serverless: [33mCreating Stack...[39m
+Serverless: [33mChecking Stack create progress...[39m
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::CloudFormation::Stack - hello-world-dev
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::CloudFormation::Stack - hello-world-dev
+Serverless: [33mStack create finished...[39m
+Serverless: [33mUploading CloudFormation file to S3...[39m
+Serverless: [33mUploading artifacts...[39m
+Serverless: [33mUploading service .zip file to S3 (611 B)...[39m
+Serverless: [33mValidating template...[39m
+Serverless: [33mUpdating Stack...[39m
+Serverless: [33mChecking Stack update progress...[39m
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::CloudFormation::Stack - hello-world-dev
+CloudFormation - [33mUPDATE_IN_PROGRESS[39m - AWS::CloudFormation::Stack - hello-world-dev
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Lambda::Version - HelloLambdaVersion1MF0KrZX3H1ryc8iXGrMjmhZEyTcZOHvaWYzqZwhB5I
+CloudFormation - [33mCREATE_IN_PROGRESS[39m - AWS::Lambda::Version - HelloLambdaVersion1MF0KrZX3H1ryc8iXGrMjmhZEyTcZOHvaWYzqZwhB5I
+CloudFormation - [32mCREATE_COMPLETE[39m - AWS::Lambda::Version - HelloLambdaVersion1MF0KrZX3H1ryc8iXGrMjmhZEyTcZOHvaWYzqZwhB5I
+CloudFormation - [33mUPDATE_COMPLETE_CLEANUP_IN_PROGRESS[39m - AWS::CloudFormation::Stack - hello-world-dev
+CloudFormation - [32mUPDATE_COMPLETE[39m - AWS::CloudFormation::Stack - hello-world-dev
+Serverless: [33mStack update finished...[39m
+[33m[4mService Information[24m[39m
+[33mservice:[39m hello-world
+[33mstage:[39m dev
+[33mregion:[39m us-east-1
+[33mstack:[39m hello-world-dev
+[33mapi keys:[39m
+  None
+[33mendpoints:[39m
+  None
+[33mfunctions:[39m
+  hello: hello-world-dev-hello
+[33m[4m[24m[39m
+[33m[4mStack Outputs[24m[39m
+[33m[4m[24m[39m[33mHelloLambdaFunctionQualifiedArn[39m: arn:aws:lambda:us-east-1:398737344545:function:hello-world-dev-hello:3
+[33mServerlessDeploymentBucketName[39m: hello-world-dev-serverlessdeploymentbucket-vsyrnu9neme
+
