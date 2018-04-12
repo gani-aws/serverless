@@ -20,7 +20,11 @@ service: hello-world
 provider:
   name: aws
   runtime: nodejs6.10
-
+  #Override Defaults
+  deploymentBucket: 
+    name: gani-sls-image-upload
+  role: arn:aws:iam::398737344545:role/my-admin-role
+  cfnRole: arn:aws:iam::398737344545:role/my-admin-role
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
@@ -57,7 +61,7 @@ provider:
 functions:
   hello:
     handler: handler.hello
-
+    
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
