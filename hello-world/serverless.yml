@@ -25,6 +25,7 @@ provider:
     name: gani-sls-image-upload
   role: arn:aws:iam::398737344545:role/my-admin-role
   cfnRole: arn:aws:iam::398737344545:role/my-admin-role
+ 
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
