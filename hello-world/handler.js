@@ -7,7 +7,7 @@ module.exports.hello = (event, context, callback) => {
       message: 'Go Serverless v1.0! Your function executed successfully!',
       input: event,
       name: process.env.NAME,
-      options: options.testOption
+     // options: options.testOption
       
     }),
   };

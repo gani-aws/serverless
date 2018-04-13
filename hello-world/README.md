@@ -5,11 +5,13 @@
         - It Creates one Log group to provide logs
         - One IAM role with assumeRole for Lambda execution with inclusive of policies for logs:CreateLogStream,logs:PutLogEvents on Loggroup resource above mentioned
         - Creates Lambda Function and its Version resource
+        
 #commit2
   - Override default values
     - default upload Lambda bucket
     - IAM role with existing for lambda and for cfn service role.
     - #TODO log group , check the URL https://serverless.com/framework/docs/providers/aws/guide/resources#aws-cloudformation-resource-reference
+
 #Commit3 
     - Using Variables
       - using environment variables 
